@@ -1,0 +1,3 @@
+-ControlFocus("Open","","Edit1")
+-ControlSetText("Open","","Edit1","C:\Users\Vikash\Desktop\FR Training\Simplilearn\Phase-5\Codes\Test.docx")
+-ControlClick("Open","","Button1")
