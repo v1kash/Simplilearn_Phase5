@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Default.NewTest">
+      <class name="testng.group.GroupTestNG">
         <methods>
-          <include name="f"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="click_element"/>
+          <include name="checkTitle"/>
         </methods>
-      </class> <!-- Default.NewTest -->
+      </class> <!-- testng.group.GroupTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
